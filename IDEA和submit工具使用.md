@@ -11,7 +11,7 @@
 - 设置文件编码
 
   > 文件->设置编码格式（命令窗口的编码格式是GBK所以在此窗口编译带有中文的java文件时需要把编码格式调整为GBK）
-  
+
 - Ctrl+/ ：注释快捷键
 
 - Ctrl+Shift+D :复制光标选中的整行，插入到下一行
@@ -102,7 +102,7 @@ https://www.bilibili.com/video/BV1fh411y7R8?t=474.5&p=266
 - 设置字符编码
 
   > file->settings->Editor->File Encodings
-  
+
 - 设置F7进入Debug源码
 
   > 点击Setting --> Build,Execution,Deployment --> Debugger --> Stepping
@@ -110,71 +110,80 @@ https://www.bilibili.com/video/BV1fh411y7R8?t=474.5&p=266
 
 # IDEA常用快捷键
 
-- 设置快捷键
+https://www.bilibili.com/video/BV1fh411y7R8?t=148.8&p=269
 
-  > file->settings->Key map(搜索快捷键)->自行更改
+## 设置快捷键
 
-- 删除当前行(搜索关键字：delete)
+> file->settings->Key map(搜索快捷键)->自行更改
 
-  > Ctrl+D
+## 删除当前行(搜索关键字：delete)
 
-- 复制当前行(搜索关键字：duplicate)
+> Ctrl+D
 
-  > Ctrrl+ALt+向下箭头
+## 复制当前行(搜索关键字：duplicate)
 
-- 补全代码
+> Ctrrl+ALt+向下箭头
 
-  > alt+\
+## 补全代码
 
-- 添加注释和取消注释
+> alt+/
 
-  > Ctrl+/
+## 添加注释和取消注释
 
-- 导入该行需要的类
+> Ctrl+/
 
-  > 先配置自动导入：file->setttings->Editor->General->Auto Import
-  >
-  > 然后使用快捷键:alt+enter
+## 导入该行需要的类
 
-- 快速格式化代码
+> 先配置自动导入：file->setttings->Editor->General->Auto Import
+>
+> 然后使用快捷键:alt+enter
 
-  > ctrl+Alt+L
+## 快速格式化代码
 
-- 快速运行程序
+> ctrl+Alt+L
 
-  > alt+R
+## 快速运行程序
 
-- 重写toString方法
+> alt+R
 
-  > alt+insert选择toString(输出对象信息)
+## 重写toString方法
 
-- 生成构造器(构造方法)
+> alt+insert选择toString(输出对象信息)
 
-  > alt+insert 选择Constructor
+## 生成构造器(构造方法)
 
-- 封装快捷键
+> alt+insert 选择Constructor
 
-  > alt+insert 选择Getter and Setter
+## 封装快捷键
 
-- 查看一个类的继承关系
+> alt+insert 选择Getter and Setter
 
-  > ctrl+H
+## 查看一个类的继承关系
 
-- 定位方法是哪一个类
+> ctrl+H
 
-  > ctrl+B
+## 定位方法
 
-- 自动分配变量名
+> ctrl+B
 
-  > 通过在后面加上.var
-  >
-  > 举例：new Scanner(System.in).var
+## 自动分配变量名
+
+> 通过在后面加上.var
+>
+> 举例：new Scanner(System.in).var
+
+# IDEA本地文件目录解释
+
+- src文件：存放源代码
+- out文件：存放class文件
 
 # IDEA模板/自定义快捷键
 
 ## 自定义模板设置
 
-> file->settings->editor->Live templates
+> file->settings->editor->Live templates(右侧展开java)
+>
+> https://www.bilibili.com/video/BV1fh411y7R8?t=268.8&p=272
 
 - sout
 
@@ -186,7 +195,7 @@ https://www.bilibili.com/video/BV1fh411y7R8?t=474.5&p=266
 
   > ```
   > for (int i = 0; i < ; i++) {
-  >     
+  > 
   > }
   > ```
 
